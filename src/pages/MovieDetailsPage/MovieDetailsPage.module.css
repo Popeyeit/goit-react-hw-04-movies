@@ -1,0 +1,40 @@
+.btn {
+    width: 120px;
+    padding: 10x 0;
+    margin-bottom: 20px;
+    background-color: sandybrown;
+    color: black;
+}
+
+.list {
+    list-style: none;
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.item {
+    width: 200px;
+    border: 1px solid #000;
+    background-color: snow;
+
+}
+
+.item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.active {
+    background-color: chartreuse;
+}
+
+.link {
+    padding: 10px 0;
+    display: block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
